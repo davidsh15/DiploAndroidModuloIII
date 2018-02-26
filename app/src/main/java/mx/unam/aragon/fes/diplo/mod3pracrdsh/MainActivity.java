@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        colegios= new String[]{"FES ARAGON","FES IZTACALA","UNAM CU","TEC MTY"};
+        colegios= new String[]{"FES ARAGON","FES IZTACALA","UNAM CU","TEC MTY","UAM"};
         spinner= (Spinner) findViewById(R.id.spinner);
         addColegios(colegios);
 
